@@ -9,3 +9,17 @@ h1, h2, h3, h4, h5, h6 {
 .bgcolor-lightgrey {
     background-color: #C2C2C2;
 }
+
+.bgcolor-darkgrey {
+    background-color: #6f6f6f;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+}
+
+.row.full-width {
+  width: 100%;
+  max-width: 100%;
+}
