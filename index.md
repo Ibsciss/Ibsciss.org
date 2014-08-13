@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Welcome!
-description: This is my site. Welcome.
-keywords: github pages, Jekyll, foundation 5
+title: Ibsciss.org
+description: We are passionate software developer, technology agnostic, focus on long term knowledge and who care about what we do.
+keywords: developer community
 ---
 
 <h2 class="text-center mam">We are passionate software developer</h2>
@@ -35,10 +35,10 @@ keywords: github pages, Jekyll, foundation 5
 	</div>
 </div>
 
-<div class="row bgcolor-lightgrey mtm">
+<div class="row full-width bgcolor-lightgrey mtm">
 	<div class="small-12 columns">
-		<p class="text-center mas">
-			We accept developers who care about the craft and want to share, <a href="#">registration</a>
+		<p class="text-center mam">
+			We accept developers who care about the craft and want to share, <a href="#"><strong>registration</strong></a>
 		</p>
 	</div>
 </div>
