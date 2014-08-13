@@ -8,17 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
 
-    <!-- CSS  Get: http://www.google.com/fonts/
-    http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
-    ================================================== -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,200,700" rel="stylesheet" type="text/css">
     <!-- Fount Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Ah, the favicon.
-    ================================================== -->
+    <link rel="stylesheet" href="{{site.url}}css/style.css" />
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
@@ -35,8 +28,6 @@
     <meta name="twitter:description" content="{{ page.description }}">
     <meta name="twitter:image" content="{{ page.imageurl }}">
 
-    <!-- modernizr
-    ================================================== -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="{{site.url}}bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>

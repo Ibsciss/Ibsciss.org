@@ -11,3 +11,4 @@ author: ibsciss.org
 analytics:
 year: 2014
 markdown: kramdown
+exclude: [scss, node_modules]
